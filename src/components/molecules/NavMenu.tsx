@@ -1,4 +1,4 @@
-import { NavLink } from "../atoms/NavLinks";
+import { NavLink } from "../atoms/NavLink";
 
 const navLinks = [
   { href: "#about", label: "Sobre mí" },

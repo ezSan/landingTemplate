@@ -46,6 +46,12 @@
   --radius-md: 0.5rem;
   --radius-lg: 0.75rem;
 
+  --overlay: 0 0 0;
+  /* negro para overlay en modo claro (se usa con alpha) */
+  --overlay-alpha: 0.6;
+  --card: 255 255 255;
+  --card-foreground: 17 24 39;
+
   --font-sans: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
 }
 
@@ -65,6 +71,11 @@
 
   --color-card: 17 24 39;
   --color-card-foreground: 243 244 246;
+
+  --overlay: 0 0 0;
+  --overlay-alpha: 0.6;
+  --card: 17 24 39;
+  --card-foreground: 243 244 246;
 }
 
 /* ---------- ALTERNATE PALETTES (activa con clase en <html>) ---------- */
@@ -164,6 +175,19 @@ p {
   margin-right: auto;
   padding-left: 1rem;
   padding-right: 1rem;
+}
+
+
+
+
+.mobile-overlay {
+  /* fallback si la variable no es fiable */
+  background-color: rgba(var(--overlay), var(--overlay-alpha));
+  /* si querés forzar más opacidad en este caso concreto:
+     background-color: rgba(var(--overlay), 0.9);
+  */
+  backdrop-filter: blur(6px);
+  /* opcional: desenfoca el fondo */
 }
 
 /* Fin de globals.css */
