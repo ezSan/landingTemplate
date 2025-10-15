@@ -139,6 +139,7 @@ h5,
 h6 {
   color: rgb(var(--color-foreground));
   margin: .25rem 0;
+  margin-bottom: 1rem;
 }
 
 p {

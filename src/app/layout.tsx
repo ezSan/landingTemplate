@@ -5,6 +5,11 @@ import { ThemeProviderClient } from "@/context/ThemeContext";
 import type { Metadata } from 'next'
 
 
+export const metadata: Metadata = {
+  title: "NodeA | Soluciones Digitales",
+  description: "Desarrollo de sitios web rápidos, modernos y personalizados.",
+};
+
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="es">
