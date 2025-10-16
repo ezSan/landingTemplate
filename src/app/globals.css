@@ -78,34 +78,6 @@
   --card-foreground: 243 244 246;
 }
 
-/* ---------- ALTERNATE PALETTES (activa con clase en <html>) ---------- */
-
-/* Palette 1 - Summer (activar: <html class="theme-summer">) */
-.theme-summer {
-  --color-primary: 234 88 12;
-  /* orange-600 */
-  --color-primary-foreground: 255 255 255;
-  --color-secondary: 234 179 8;
-  /* amber-400 */
-  --color-secondary-foreground: 17 24 39;
-  --color-bg: 255 255 255;
-  --color-foreground: 17 24 39;
-  --color-muted: 107 114 128;
-}
-
-/* Palette 2 - Coral (activar: <html class="theme-coral">) */
-.theme-coral {
-  --color-primary: 244 63 94;
-  /* coral-ish */
-  --color-primary-foreground: 255 255 255;
-  --color-secondary: 99 102 241;
-  /* indigo */
-  --color-secondary-foreground: 255 255 255;
-  --color-bg: 250 245 240;
-  --color-foreground: 33 24 19;
-  --color-muted: 120 110 105;
-}
-
 /* ---------- REGLAS GLOBALES (sin @apply) ---------- */
 html,
 body {
