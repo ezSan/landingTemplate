@@ -163,4 +163,15 @@ p {
   /* opcional: desenfoca el fondo */
 }
 
+.section-text {
+  width: 80%;
+  max-width: 900px;
+  margin: 0 auto;
+
+  text-align: center;
+}
+
+
+
+
 /* Fin de globals.css */
